@@ -10,9 +10,9 @@ const dayCareName = "Bark and Bowl Doggy Day Care";
 function App() {
   return (
     <div className="App">
-      {/* <Header name={dayCareName} date={todaysDate} />
+      <Header name={dayCareName} date={todaysDate} />
       <Aside dogs={dogs} />
-      <Main dogs={dogs} /> */}
+      <Main dogs={dogs} />
     </div>
   );
 }
