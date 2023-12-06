@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header name={dayCareName} date={todaysDate} />
-      <Aside />
+      <Aside dogs={dogs} />
       <Main />
     </div>
   );
