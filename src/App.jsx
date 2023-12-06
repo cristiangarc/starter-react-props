@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header name={dayCareName} date={todaysDate} />
       <Aside dogs={dogs} />
-      <Main />
+      <Main dogs={dogs} />
     </div>
   );
 }
